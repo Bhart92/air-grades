@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    outline: none!important;
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  #root{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  html {
+    font-size: 66%;
+    position: relative;
+  }
+
+  ::-webkit-scrollbar {
+    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0px;  /* Remove scrollbar space */
+}
+
+/* Optional: show position indicator in white */
+::-webkit-scrollbar-thumb {
+    background: rgb(252, 252, 252);
+}
+
+body{
+  height: auto;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    transition: all .35s ease;
+    position: relative;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    background-color: darken(rgb(252, 252, 252), 1.5%);
+    background-image: url('/assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}  
+.body-overflow{
+    overflow: hidden!important;
+}
+
+h1{
+  margin: 0;
+  position: relative!important;
+}
+
+a{
+    color: black;
+    font-weight: 300;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    transition: .25s all ease-in-out;
+    &:hover{
+      color: grey;
+    }
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }

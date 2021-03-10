@@ -1,0 +1,20 @@
+.alert {
+  padding: 0.8rem;
+  opacity: .99;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 100;
+  max-height: 75px;
+  height: 95px;
+  min-width: 50%;
+  background-color: rgba(255, 255, 255, .95);
+  border-bottom: .01px solid darkred;
+  border-top: .01px solid darkred;
+  }
+  
+  .alert-danger {
+    color: black;
+  }

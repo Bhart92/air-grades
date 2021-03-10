@@ -1,0 +1,17 @@
+.center-all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-all-column{
+    @extend .center-all;
+    flex-direction: column;
+}
+$small-size: 10px;
+$med-size: 20px;
+$large-size: 30px;
+
+$green: #a8e05f;
+$yellow: #FCFF5C;
+$orange: #F67451;
+$white: #f4f4f4;
