@@ -1,33 +1,33 @@
-#moderate{
-    background: $yellow!important;
+#moderate {
+  background: $yellow !important;
 }
-#mod-rating{
-    background: darken($yellow, 20%);
+#mod-rating {
+  background: darken($yellow, 20%);
 }
-#sensitive{
-    background: $orange!important;
+#sensitive {
+  background: $orange !important;
 }
-#sensitive{
-    background: darken($orange, 5%);
+#sensitive {
+  background: darken($orange, 5%);
 }
-#sensitive-rating{
-    background: darken($orange, 12%);
+#sensitive-rating {
+  background: darken($orange, 12%);
 }
-#bad-banner{
-    background: darken(red, 0);
+#bad-banner {
+  background: darken(red, 0);
 }
-#bad-rating{
-    background: darken(red, 2%);
+#bad-rating {
+  background: darken(red, 2%);
 }
-#very-bad{
-    background: lighten(purple, 10%);
+#very-bad {
+  background: lighten(purple, 10%);
 }
-#very-bad-rating{
-    background: lighten(purple, 5%);
+#very-bad-rating {
+  background: lighten(purple, 5%);
 }
-#severe-banner{
-    background: lighten(maroon, 10%);
+#severe-banner {
+  background: lighten(maroon, 10%);
 }
-#severe-rating{
-    background: lighten(maroon, 5%);
+#severe-rating {
+  background: lighten(maroon, 5%);
 }

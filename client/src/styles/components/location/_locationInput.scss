@@ -1,120 +1,120 @@
-.location-input{
-    max-width: 600px;
-    min-width: 30%;
-    height: 90%;
-    @extend .center-all-column;
+.location-input {
+  max-width: 600px;
+  min-width: 30%;
+  height: 90%;
+  @extend .center-all-column;
+  justify-content: center;
+  h1 {
+    padding: 20px 0;
+  }
+  span {
+    &:first-of-type {
+      margin-bottom: 10px;
+    }
+  }
+  .input-container {
+    margin: 10px 0;
+    width: 75%;
+    select {
+      text-align: center;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid black;
+      outline: none;
+      background: none;
+      height: 50px;
+    }
+  }
+  span {
+    font-size: 3rem;
+  }
+  input[type="submit"] {
+    width: 25%;
+    border: none;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 9999px;
+  }
+  .refresh {
+    padding: 7px 15px;
+    border-radius: 5px;
+    color: $white;
+    font-size: 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid salmon;
+    background: salmon;
+    transition: 0.5s all ease;
+    margin: 5px 0;
+    &:hover {
+      border: 1px solid salmon;
+      background: transparent;
+      color: salmon;
+    }
+  }
+  .location-btn {
+    @extend .refresh;
+    color: $white;
+    border: 1px solid forestgreen;
+    background: forestgreen;
+    &:hover {
+      border: 1px solid forestgreen;
+      background: transparent;
+      color: forestgreen;
+    }
+  }
+  .location-input--btn-container {
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
-    h1{
-        padding: 20px 0;
+    span {
+      margin: 0 2.5px;
+      padding: 5px 5px;
     }
-    span{
-        &:first-of-type{
-            margin-bottom: 10px;
-        }
-    }
-    .input-container{
-        margin: 10px 0;
-        width: 75%;
-        select{
-            text-align: center;
-            width: 100%;
-            border: none;
-            border-bottom: 1px solid black;
-            outline: none;
-            background: none;
-            height: 50px;
-        }
-    }
-    span{
-        font-size: 3rem;
-    }
-        input[type=submit]{
-            width: 25%;
-            border: none;
-            background: transparent;
-            border: 1px solid black;
-            border-radius: 9999px;
-        }
-    .refresh{
-        padding: 7px 15px;
-        border-radius: 5px;
-        color: $white;
-        font-size: 2rem;
-        border-radius: 5px;
-        cursor: pointer;
-        border: 1px solid salmon;
-        background: salmon;
-        transition: .5s all ease;
-        margin: 5px 0;
-        &:hover{
-            border: 1px solid salmon;
-            background: transparent;
-            color: salmon
-        }
-    }
-    .location-btn{
-        @extend .refresh;
-        color: $white;
-        border: 1px solid forestgreen;
-        background: forestgreen;
-        &:hover{
-            border: 1px solid forestgreen;
-            background: transparent;
-            color: forestgreen
-        }
-    }
-    .location-input--btn-container{
-        margin: 15px auto;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        span{
-            margin: 0 2.5px;
-            padding: 5px 5px;
-        }
-    }
+  }
 }
-@media(width: 1024px) and (height: 1366px){
-    .location-input {
-        max-width: 662px;
-        min-width: 75%;
-    }
-    .location-input .input-container {
-        width: 60%;
-    }
-    select{
-        height: 50px;
-        font-size: 1.65rem;
-    }
-} 
-@media(max-width: 800px){
-    select{
-        height: 50px;
-        font-size: 1.4rem;
-    }
-    .input-container{
-        width: 80%;
-    }
+@media (width: 1024px) and (height: 1366px) {
+  .location-input {
+    max-width: 662px;
+    min-width: 75%;
+  }
+  .location-input .input-container {
+    width: 60%;
+  }
+  select {
+    height: 50px;
+    font-size: 1.65rem;
+  }
 }
-@media(max-width: 600px){
-    .location-input h1{
-        font-size: 2.65rem;
-    }
+@media (max-width: 800px) {
+  select {
+    height: 50px;
+    font-size: 1.4rem;
+  }
+  .input-container {
+    width: 80%;
+  }
 }
-@media(max-width: 325px){
-    .location-input .location-btn {
-        padding: 7px 1px;
-    }
+@media (max-width: 600px) {
+  .location-input h1 {
+    font-size: 2.65rem;
+  }
 }
-@media(max-width: 280px){
-    .location-input h1{
-        font-size: 2.35rem;
-    }
-    .location-input span:first-of-type {
-        font-size: 2.3rem;
-    }
-    .location-input .location-input--btn-container span{
-            margin: 5px 5px;
-    }
+@media (max-width: 325px) {
+  .location-input .location-btn {
+    padding: 7px 1px;
+  }
+}
+@media (max-width: 280px) {
+  .location-input h1 {
+    font-size: 2.35rem;
+  }
+  .location-input span:first-of-type {
+    font-size: 2.3rem;
+  }
+  .location-input .location-input--btn-container span {
+    margin: 5px 5px;
+  }
 }

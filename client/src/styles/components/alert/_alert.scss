@@ -1,6 +1,6 @@
 .alert {
   padding: 0.8rem;
-  opacity: .99;
+  opacity: 0.99;
   color: #333;
   display: flex;
   align-items: center;
@@ -10,11 +10,11 @@
   max-height: 75px;
   height: 95px;
   min-width: 50%;
-  background-color: rgba(255, 255, 255, .95);
-  border-bottom: .01px solid darkred;
-  border-top: .01px solid darkred;
-  }
-  
-  .alert-danger {
-    color: black;
-  }
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 0.01px solid darkred;
+  border-top: 0.01px solid darkred;
+}
+
+.alert-danger {
+  color: black;
+}
